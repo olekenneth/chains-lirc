@@ -18,9 +18,11 @@ AUTOSTART
  - With content:
 
 
-    [program:chains-lirc]
-    command=node /usr/sbin/chains-lirc/app.js
-    autostart=true
-    autorestart=true
-    stderr_logfile=/var/log/chains-lirc.err.log
-    stdout_logfile=/var/log/chains-lirc.out.log
+```
+[program:chains-lirc]
+command=node /usr/sbin/chains-lirc/app.js
+autostart=true
+autorestart=true
+stderr_logfile=/var/log/chains-lirc.err.log
+stdout_logfile=/var/log/chains-lirc.out.log
+```

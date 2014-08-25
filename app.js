@@ -11,8 +11,8 @@ var sendEventThrottled = _.throttle(sendEvent, 1000, {trailing: false});
 try {
     lirc_client.connect('chains', false, 'lirc.conf', function(type, data, configFile) {
         var irCommand = data.split(' '),
-            button = irCommand[2],
-            remote = irCommand[3];
+            button = irCommand[2].trim(),
+            remote = irCommand[3].trim();
 
         sendEventThrottled('remote-' + remote, {value: button});
     });

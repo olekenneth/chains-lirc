@@ -1,6 +1,6 @@
 var lirc_client  = require('lirc_client'),
     _            = require('lodash'),
-    amqp         = require('./chains-amqp').connect({deviceName: 'lirc'});
+    amqp         = require('chains-amqp').connect({deviceName: 'lirc'});
 
 var sendEvent = function(eventName, data) {
     amqp.sendEvent(eventName, data);

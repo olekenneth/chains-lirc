@@ -1,0 +1,32 @@
+{
+    "name": "chains-lirc",
+    "description": "This package is a LIRC-device for Chains.",
+    "author": {
+        "name": "Ole-Kenneth Rangnes",
+        "email": "ok@rait.no",
+        "url": "http://olekenneth.com"
+    },
+    "main" : "app",
+    "version" : "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/olekenneth/chains-lirc.git"
+    },
+    "dependencies": {
+        "lirc_client": "1.0.0",
+        "lodash": "*",
+        "chains-amqp": "1.0.*"
+    },
+    "keywords": [
+        "chains",
+        "homeautomation",
+        "home",
+        "automation",
+        "lirc",
+        "ir",
+        "remote",
+        "controll",
+        "lights"
+    ],
+    "license": "MIT"
+}

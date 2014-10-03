@@ -7,7 +7,8 @@
         "url": "http://olekenneth.com"
     },
     "main" : "app",
-    "version" : "1.0.0",
+    "bin": "./app.js",
+    "version" : "1.0.1",
     "repository": {
         "type": "git",
         "url": "https://github.com/olekenneth/chains-lirc.git"

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var lirc_client  = require('lirc_client'),
     _            = require('lodash'),
     amqp         = require('chains-amqp').connect({deviceName: 'lirc'});
